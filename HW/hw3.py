@@ -54,6 +54,8 @@
 # for i in range(1, len(my_dictionary) + 1):
 #     sum1 += my_dictionary['num' + str(i)]
 # print(sum1)
+# sum1 = sum(my_dictionary.values())
+# print(sum1)
 
 # 3.7. Удалите повторяющиеся значения из списка [1, 2, 3, 4, 5, 3, 2, 1]
 # list_1 = [1, 2, 3, 4, 5, 3, 2, 1]
