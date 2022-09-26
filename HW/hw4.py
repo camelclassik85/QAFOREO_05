@@ -11,7 +11,8 @@
 #      периметр квадрата, площадь квадрата и диагональ квадрата.
 #
 # def square(n):
-#     return tuple([n * 4, n ** 2, n * (2 ** 0.5)])
+#     return (n * 4, n ** 2, n * (2 ** 0.5))
+# print(square(2))
 #
 # 4.2. Напишите фукнцию, которая принимает произвольное количество именнованных аргументов и выводит их построчно
 #      в формате аргумент: значение. Например:
@@ -37,18 +38,15 @@
 #
 # from functools import reduce
 # my_list = [20, -3, 15, 2, -1, -21]
-# summmm = reduce((lambda x, y: x * y), my_list)
+# new_lst = list(filter(lambda x: (x >= 0), my_list))
+# summmm = reduce((lambda x, y: x * y), new_lst)
 # print(summmm)
 #
 # 4.5. Создайте файл my_calc.py и пропишите в нем минимум 4 функции, выполняющие базовые арифметические вычисления.
 #      Примените эти функции в качестве методов в другом файле.
-# import my_calc
-# print(my_calc.multi(2, 3))
-# print(my_calc.sum_args(2, 3, 4, 5, 5, 6))
-# print(my_calc.multi(5, 6))
-# print(my_calc.division(99, 45))import my_calc
-# print(my_calc.multi(2, 3))
-# print(my_calc.sum_args(2, 3, 4, 5, 5, 6))
-# print(my_calc.multi(5, 6))
-# print(my_calc.division(99, 45))
+import my_calc
+print(my_calc.multi(2, 3))
+print(my_calc.sum_args(2, 3, 4, 5, 5, 6))
+print(my_calc.multi(5, 6))
+print(my_calc.division(99, 0))
 
