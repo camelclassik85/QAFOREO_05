@@ -40,5 +40,15 @@
 #             f0 = f1
 #             f1 = fib
 #         return fib
-
-
+# array =[[ 0, 1, 2, 3, 4 ], [10,11,12,13,14 ],
+#     [ 20,21,22,23,24 ],
+#     [ 30,31,32,33,34 ]]
+# s = ""
+# for q in array:
+#     s += ','.join(str(n) for n in q) + "\n"
+# print(s[:-1])
+# n = 2
+# x = 5
+# print(list(range(n, n*x +1, n)))
+message = ""
+message.encode()
