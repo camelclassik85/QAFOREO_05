@@ -13,6 +13,7 @@
 #         print(i)
 # print(sum(list_dig))
 
+
 # 3.3. Превратите лист ['cat', 'dog', 'horse, 'cow'] в кортеж
 # print(tuple(['cat', 'dog', 'horse', 'cow']))
 
