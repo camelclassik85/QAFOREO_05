@@ -50,5 +50,11 @@
 # n = 2
 # x = 5
 # print(list(range(n, n*x +1, n)))
-message = ""
-message.encode()
+
+# lst = 'sdfgsfd 34 dfsg45 sdfg4dsfg'
+# lst1 = ''
+# for i in lst:
+#     if i not in [str(x) for x in range(0,10)]:
+#         lst1 += i
+# name = "sdfsf Edffd"
+# print(f"{name.title()[0]}.{name.title()[name.index(' ') + 1]}")
