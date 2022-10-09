@@ -58,3 +58,8 @@
 #         lst1 += i
 # name = "sdfsf Edffd"
 # print(f"{name.title()[0]}.{name.title()[name.index(' ') + 1]}")
+#
+# def funct(list):
+#     return list + [13]
+#
+# print(funct([]))
