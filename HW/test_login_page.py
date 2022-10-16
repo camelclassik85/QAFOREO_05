@@ -3,8 +3,12 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from webdriver_manager.chrome import ChromeDriverManager
+# 1 from selenium.webdriver.chrome.service import Service
 
 driver = webdriver.Chrome(ChromeDriverManager().install())
+# driver = webdriver.Chrome('/Users/a.dulalaev/PycharmProjects/chromedriver')
+#  s = Service('/Users/a.dulalaev/PycharmProjects/chromedriver')
+# 1 driver = webdriver.Chrome(service=s)
 driver.get('http://www.saucedemo.com')
 
 
